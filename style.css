@@ -1,0 +1,111 @@
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-desenho-floral-linear_23-2149130877.jpg?w=2000);
+    background-size: cover;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+  
+input {
+    width: 400px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+header {
+    background-color: hwb(124 37% 57%);
+    color: rgb(63, 119, 67);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+  
+button a {
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header button {
+    background-color: #ecf3fa;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px;
+    font-size: 19px;
+}
+  
+header button:hover {
+    text-decoration: none;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 5px;
+    text-align: center;
+}
+  
+.container h1 {
+    color: rgb(44, 78, 48);
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+  
+.container h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+  
+.container p {
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.container ul {
+   text-align: left;
+}
+  
+#resultado, #maiorSalario, #totalSalarios {
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+ul{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color:#000000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .deposit-button, .withdraw-button {
+    padding: 4px 8px;
+    margin-right: 4px;
+}
+
+.red-text {
+    color: red;
+  }
+  
+  .green-text {
+    color: green;
+  }

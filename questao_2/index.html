@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 2 - Lista 3 LSWeb</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <button><a href="../index.html">Home</a></button>
+        <button><a href="/questao_1/index.html">Questão 1</a></button>
+        <button><a href="/questao_2/index.html">Questão 2</a></button>
+        <button><a href="/questao_3/index.html">Questão 3</a></button>
+    </header>
+
+    <h1>Formulário de Clientes do Banco</h1>
+
+    <form id="cliente-form">
+        
+    <label for="nome-input">Nome: </label>  
+    <input type="text" id="nome-input" required>
+    <br>
+
+    <label for="documento-input">Documento:</label>
+    <input type="text" id="documento-input" required>
+    <br>
+
+    <label for="saldo-input">Saldo:</label>
+    <input type="number" id="saldo-input" required>
+    <br><br>
+
+    <button type="submit">Adicionar Cliente</button>
+    </form>
+
+
+    <h2>Lista de Clientes</h2>
+
+    <table id="clientes-table">
+        <tr>
+        <th>Nome</th> 
+            
+        <th>Documento</th>
+            
+        <th>Saldo</th>
+            
+        <th>Ações</th>
+        </tr>
+
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
